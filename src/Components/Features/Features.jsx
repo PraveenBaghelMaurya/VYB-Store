@@ -34,7 +34,7 @@ const Features = () => {
             <h2 className="flex-1 shrink self-stretch my-auto text-4xl font-bold text-emerald-500 basis-0 max-md:max-w-full">
                 From Creation to Monetization: Vyb Store Has It All
             </h2>
-            <div className="flex flex-wrap gap-4 items-center self-stretch my-auto text-white min-w-[360px] w-[726px] max-md:max-w-full">
+            <div className="flex flex-wrap gap-4 items-center self-stretch my-auto text-white min-w-[360px] w-[926px] max-md:max-w-full">
                 {features.map((feature, index) => (
                     <FeatureCard key={index} {...feature} />
                 ))}
